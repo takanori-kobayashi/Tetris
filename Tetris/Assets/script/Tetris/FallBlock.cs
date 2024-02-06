@@ -795,8 +795,8 @@ public class FallBlock : MonoBehaviour
             case PUSH_DIRECT.DOWN:
                 m_rb.velocity = new Vector3(0, -speed, 0);
                 break;
-            case PUSH_DIRECT.UP:
 #if false
+            case PUSH_DIRECT.UP:
                 m_rb.velocity = new Vector3(0, speed, 0);
 #endif
                 break;
