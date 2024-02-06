@@ -798,8 +798,8 @@ public class FallBlock : MonoBehaviour
 #if false
             case PUSH_DIRECT.UP:
                 m_rb.velocity = new Vector3(0, speed, 0);
-#endif
                 break;
+#endif
             case PUSH_DIRECT.HOLD:
                 //通常時以外は反応しない
                 //if (Move.m_OperationState == Move.OperationState.OP_STATE_PLAY)
